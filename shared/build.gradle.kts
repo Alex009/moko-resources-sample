@@ -23,14 +23,14 @@ kotlin {
 
             isStatic = false
 
-            export("dev.icerock.moko:resources:0.20.1")
+            export("dev.icerock.moko:resources:0.22.3")
         }
     }
 
     sourceSets {
         val commonMain by getting {
             dependencies {
-                api("dev.icerock.moko:resources:0.20.1")
+                api("dev.icerock.moko:resources:0.22.3")
             }
         }
         val commonTest by getting {
